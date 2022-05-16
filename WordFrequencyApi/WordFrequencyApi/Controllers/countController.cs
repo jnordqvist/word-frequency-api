@@ -51,10 +51,11 @@ namespace WordFrequencyApi.Controllers
             Dictionary<string, int> wordCounts = new();
             foreach (var word in words)
             {
-                if (!wordCounts.ContainsKey(word))
-                    wordCounts.Add(word, 1);
+                string standardisedWord = word[0].ToString().ToUpper() + word[1..].ToLower();
+                if (!wordCounts.ContainsKey(standardisedWord))
+                    wordCounts.Add(standardisedWord, 1);
                 else
-                    wordCounts[word] += 1;
+                    wordCounts[standardisedWord] += 1;
             }
             wordCounts = wordCounts.OrderByDescending(x => x.Value).Take(10).ToDictionary(x => x.Key, x => x.Value);
             return wordCounts;
