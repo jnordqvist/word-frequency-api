@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BbXb6HSfN+bFK1XpdgDnKKiP5IaZ2ZyVWZ0ybQrfLGiuVHj6MpIJQxtt4s8C7nJLXoZGiOJmEnalikFKxK4k8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joakim\\Desktop\\frequency-api\\WordFrequencyApi\\WordFrequencyApi\\WordFrequencyApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joakim\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Joakim\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Joakim\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Joakim\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Joakim\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Joakim\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
