@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -20,8 +21,13 @@ namespace WordFrequencyApi.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Post method, reads data from request, splits data on blankspace
+        /// takes generated dictionary and serializes to json
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
-        public async Task<Dictionary<string, int>> Post()
+        public async Task<string> Post()
         {
             string input;
             using (var reader = new StreamReader(Request.Body))
@@ -31,11 +37,12 @@ namespace WordFrequencyApi.Controllers
             var words = input.Split();
             var wordCounts = GenerateFrequencyDictionary(words);
 
-            return wordCounts;
+            return JsonConvert.SerializeObject(wordCounts);
         }
 
         /// <summary>
-        /// 
+        /// takes list of words and generates a dictionary containing the frequency of each word in supplied list
+        /// key = word & value = frequency
         /// </summary>
         /// <param name="words"></param>
         /// <returns></returns>

@@ -26,3 +26,5 @@ C:\Users\Joakim\Desktop\frequency-api\WordFrequencyApi\WordFrequencyApi\obj\Debu
 C:\Users\Joakim\Desktop\frequency-api\WordFrequencyApi\WordFrequencyApi\obj\Debug\net5.0\ref\WordFrequencyApi.dll
 C:\Users\Joakim\Desktop\frequency-api\WordFrequencyApi\WordFrequencyApi\obj\Debug\net5.0\WordFrequencyApi.pdb
 C:\Users\Joakim\Desktop\frequency-api\WordFrequencyApi\WordFrequencyApi\obj\Debug\net5.0\WordFrequencyApi.genruntimeconfig.cache
+C:\Users\Joakim\Desktop\frequency-api\WordFrequencyApi\WordFrequencyApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Joakim\Desktop\frequency-api\WordFrequencyApi\WordFrequencyApi\obj\Debug\net5.0\WordFrequencyApi.csproj.AssemblyReference.cache
